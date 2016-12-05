@@ -30,7 +30,7 @@ namespace TableStorage
             finally
             {
                 // Delete the table
-                await table.DeleteIfExistsAsync();
+                //await table.DeleteIfExistsAsync();
             }
         }
 
@@ -64,9 +64,9 @@ namespace TableStorage
             Console.WriteLine();
 
             // Demonstrate how to Delete an entity
-            Console.WriteLine("Delete the entity. ");
-            await DeleteEntityAsync(table, customer);
-            Console.WriteLine();
+            //Console.WriteLine("Delete the entity. ");
+            //await DeleteEntityAsync(table, customer);
+            //Console.WriteLine();
         }
 
         /// <summary>
